@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(225, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+
+#logo {
+    color: #1e0a0a;
+}
+
+#textbox {
+    background: white;
+    font-size: 15px;
+    font-family: monospace;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+}

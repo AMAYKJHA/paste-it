@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paste it</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='index_style.css')}}">
+</head>
+
+<body>
+    <div id="logo">
+        <h1>Paste it</h1>
+    </div>
+    <div class="mainarea">
+        <form method="post" action="/pasteit/viewpage">
+            <input type="text" id="title-box" name="title" placeholder="Enter title (if any)">
+            <br />
+            <textarea name="textbox" id="textbox" placeholder="Enter your text here..." required></textarea>
+            <br />
+            <input type="submit" id="submit-btn" value="Paste">
+        </form>
+    </div>
+    <br />
+
+</body>
+
+
+</html>
